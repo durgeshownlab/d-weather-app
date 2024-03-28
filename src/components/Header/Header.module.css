@@ -88,7 +88,7 @@
     padding: 5px 5px;
     padding-left: 20px;
     border: none;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     border-radius: 50px;
     color: var(--light-blue);
 }
@@ -142,9 +142,12 @@
     {
         display: flex;
     }
+}
 
+@media only screen and (max-width: 650px) {
     .searchInput
     {
         width: 200px !important;
+        font-size: 1.1rem;
     }
 }
