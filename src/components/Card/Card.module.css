@@ -1,0 +1,125 @@
+.card
+{
+    width: 380px;
+    height: max-content;
+    /* border: 1px solid red; */
+    background-color: var(--dark-blue);
+    padding: 30px 10px;
+    margin: 50px 0;
+    border-radius: 25px;
+    box-shadow: 0 4px 30px 0 #00000065;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.locationContainer
+{
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+    color: var(--white);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.tempContainer
+{
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+    color: var(--white);
+}
+
+.tempContainer h1
+{
+    font-size: 7rem;
+}
+
+.tempContainer sup
+{
+    font-size: 5rem;
+    font-weight: 300;
+}
+
+.tempContainer span
+{
+    font-size: 4rem;
+    font-weight: 600;
+    margin-left: -8px;
+}
+
+.skyInfoContainer
+{
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: last baseline;
+    justify-content: center;
+    column-gap: 10px;
+    color: var(--white);
+}
+
+.skyInfoContainer p
+{
+    font-size: 1.5rem;
+    font-weight: 600;
+    display: flex;
+}
+
+.skyInfoImage
+{
+    height: 120px;
+}
+
+.extraInfoContainer
+{
+    width: max-content;
+    /* border: 1px solid red; */
+    background-color: var(--extra-light-blue);
+    border-radius: 10px;
+    display: flex;
+    align-items: last baseline;
+    justify-content: center;
+    column-gap: 20px;
+    color: var(--white);
+    margin-top: 50px;
+    padding: 15px 10px;
+}
+
+.extraInfoItem
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.extraInfoItem p
+{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.extraInfoIcon
+{
+    font-size: 1.5rem;
+}
+
+.waterDrop
+{
+    rotate: 180deg;
+}
+
+@media only screen and (max-width: 500px) {
+    .card
+    {
+        min-width: 300px;
+        max-width: max-content;
+    }
+}
