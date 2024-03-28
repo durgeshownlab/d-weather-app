@@ -1,7 +1,7 @@
 .cardContainer
 {
     width: 100%;
-    min-height: calc(100vh - 80px);
+    min-height: calc(100vh - 100px);
     max-height: max-content;
     /* border: 1px solid red; */
     display: flex;
