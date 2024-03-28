@@ -83,7 +83,7 @@
 
 .searchInput
 {
-    width: 200px;
+    width: 300px;
     outline: none;
     padding: 5px 5px;
     padding-left: 20px;
@@ -141,5 +141,10 @@
     .menuToggleButton
     {
         display: flex;
+    }
+
+    .searchInput
+    {
+        width: 200px !important;
     }
 }
