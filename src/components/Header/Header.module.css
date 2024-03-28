@@ -83,6 +83,7 @@
 
 .searchInput
 {
+    width: 200px;
     outline: none;
     padding: 5px 5px;
     padding-left: 20px;
